@@ -1,0 +1,50 @@
+:root{
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-repeat: repeat;
+}
+
+.container {
+    border: 3px solid black;
+    background-color: white;
+    box-sizing: border-box;
+    display: grid;
+    margin: auto;
+    padding: 0px !important;
+    grid-template-rows: repeat(var(--grid-rows), auto);
+    grid-template-columns: repeat(var(--grid-cols), auto);
+    height: 960px;
+    width: 640px;
+}
+
+.grid-item {
+    padding: auto;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px hotpink;
+}
+
+.buttons{
+    padding-top: 10px;
+    text-align: center;
+}
+
+input {
+    margin: 20px;
+}
+
+#footer{
+    padding-top: 10px;
+    text-align: center;
+}
