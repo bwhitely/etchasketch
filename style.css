@@ -22,6 +22,8 @@ html,body{
     grid-template-columns: repeat(var(--grid-cols), auto);
     height: 960px;
     width: 640px;
+    max-width: 640px;
+    max-height: 960px;
 }
 
 .grid-item {
